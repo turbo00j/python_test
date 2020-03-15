@@ -1,6 +1,6 @@
-bank_name = input("Enter the Bank name :")
-bank_address = input("Enter the bank address :")
-bank_IFSC = input("Enter the bank IFSC code :")
+bank_name = str(input("Enter the Bank name :"))
+bank_address = str(input("Enter the bank address :"))
+bank_IFSC = str(input("Enter the bank IFSC code :"))
 def account_details():
     print("BANK ADDRESS:",bank_address,"\nBANK IFSC :",bank_IFSC)
     account_balance = 500000.00
