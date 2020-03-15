@@ -1,8 +1,8 @@
-bank_name = input("Enter the Bank name :")
+# bank_name = input("Enter the Bank name :")
 bank_address = input("Enter the bank address :")
 bank_IFSC = input("Enter the bank IFSC code :")
 def account_details():
-    print("BANK NAME:",bank_name,"\nBANK ADDRESS:",bank_address,"\nBANK IFSC :",bank_IFSC)
+    print("BANK ADDRESS:",bank_address,"\nBANK IFSC :",bank_IFSC)
     account_balance = 500000.00
     account_deposit = float(input("Enter the depositing amount :"))
     account_balance = account_balance+account_deposit
